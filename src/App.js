@@ -4,10 +4,10 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import Home from "./Components/Home";
-
-
 import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Events from "./Components/Events";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -15,6 +15,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route exact path="/events" element={<Events />} />
+      </Routes>
+      <Routes>
+        <Route exact path="/team" element={<Team />} />
       </Routes>
     </Router>
   );
