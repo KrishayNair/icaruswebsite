@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background: url("./media/bg.jpg") no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
