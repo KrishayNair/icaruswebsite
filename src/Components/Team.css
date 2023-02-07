@@ -47,7 +47,6 @@
   padding: 30px;
   justify-content: space-evenly;
   margin-top: 2rem;
-  
 }
 .element3 {
   width: 25rem;
@@ -112,4 +111,7 @@
 .name {
   text-align: center;
   margin-top: 1rem;
+}
+hr.line {
+  border: 5px solid #fff;
 }
