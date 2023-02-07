@@ -1,0 +1,116 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.element {
+  width: 25rem;
+  color: #fff;
+  font-family: "Poppins";
+  background-color: rgba(40, 10, 40, 0.4);
+  border-width: 4px;
+  border-style: solid;
+  padding: 2rem;
+
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  border-image: linear-gradient(#532cad, #69e1f9) 30;
+}
+.mainDiv2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.element2 {
+  width: 25rem;
+  color: #fff;
+  font-family: "Poppins";
+  background-color: rgba(40, 10, 40, 0.4);
+  border-width: 4px;
+  border-style: solid;
+  padding: 2rem;
+
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  border-image: linear-gradient(#532cad, #69e1f9) 30;
+}
+.mainDiv3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.element3 {
+  width: 25rem;
+  color: #fff;
+  font-family: "Poppins";
+  background-color: rgba(40, 10, 40, 0.4);
+  border-width: 4px;
+  border-style: solid;
+  padding: 2rem;
+
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  border-image: linear-gradient(#532cad, #69e1f9) 30;
+}
+.mainDiv4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.element4 {
+  width: 25rem;
+  color: #fff;
+  font-family: "Poppins";
+  background-color: rgba(40, 10, 40, 0.4);
+  border-width: 4px;
+  border-style: solid;
+  padding: 2rem;
+
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  border-image: linear-gradient(#532cad, #69e1f9) 30;
+}
+.heading {
+  text-align: center;
+}
+.headingdiv {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(40, 10, 40, 0.4);
+}
+.divHeading {
+  margin-bottom: 1.5rem;
+}
+.divHeading2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.divHeading3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.divHeading4 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.image {
+  display: block;
+  width: 15rem;
+  margin: auto;
+}
+.name {
+  text-align: center;
+  margin-top: 1rem;
+}
