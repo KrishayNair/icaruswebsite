@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Events from "./Components/Events";
 import Team from "./Components/Team";
+import ESports from "./Components/ESports";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path="/team" element={<Team />} />
+      </Routes>
+      <Routes>
+        <Route exact path="/esports" element={<ESports />} />
       </Routes>
     </Router>
   );

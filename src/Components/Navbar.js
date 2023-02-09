@@ -18,7 +18,7 @@ export default function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" >
-                    <ul className="col-11 navbar-nav me-auto mb-2 mb-lg-0 justify-content-end" style={{ "columnGap": "5vw", "letterSpacing": "0.5vw" }}>
+                    <ul className="col navbar-nav me-auto mb-2 mb-lg-0 justify-content-end" style={{ "columnGap": "2.5vw", "letterSpacing": "0.5vw" }}>
                         <li className="nav-item">
                             <Link className="nav-link active text-light" aria-current="page" to='/'>Home</Link>
                         </li>
@@ -34,6 +34,9 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item text-light">
                             <Link className="nav-link text-light" to='/team'>Team</Link>
+                        </li>
+                        <li className="nav-item text-light">
+                            <Link className="nav-link text-light" to='/esports'>E-Sports</Link>
                         </li>
                     </ul>
                 </div>
