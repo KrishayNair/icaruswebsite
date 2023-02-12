@@ -1,0 +1,10 @@
+.event-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title {
+    font-size: 10vw;
+    text-align: center;
+}
