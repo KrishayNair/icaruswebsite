@@ -1,29 +1,40 @@
 /**flagship events */
-import poster from "../media/poster.jpg";
+import poster from "../media/event-sample-poster.png";
 export const Flagship = [
   {
-    title: "title",
+    title: "Tech Quiz ",
     Image: poster,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .",
+    link:"",
+    description:
+      "Technical Quiz will have multiple rounds that cover different technical subjects. Each round will have a different format and level of difficulty",
+  },
+  {
+    title: "Poster",
+    Image: poster,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Parliament",
     Image: poster,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Project Presentation",
     Image: poster,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Bike Expo",
     Image: poster,
-    description: "This is a description",
-  },
-  {
-    title: "title",
-    Image: poster,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .",
+    link:"",
     description: "This is a description",
   },
 ];
@@ -31,69 +42,93 @@ export const Flagship = [
 /**contigent events */
 export const Contingent = [
   {
-    title: "title",
+    title: "Treasure Hunt",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "FIFA",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Relay Coding",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Reel Making",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
 ];
 /**Non-contigent events */
 export const NonContigent = [
   {
-    title: "title",
+    title: "Laser Mesh",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Tech Debate",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Neon Cricket",
     Image: poster,
-    description: "This is a description",
-  },
-
-  {
-    title: "title",
-    Image: poster,
-    description: "This is a description",
-  },
-  {
-    title: "title",
-    Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
 
   {
-    title: "title",
+    title: "Glow Football",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
   {
-    title: "title",
+    title: "Open Cube",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
 
   {
-    title: "title",
+    title: "Giant Jenga",
     Image: poster,
+    desc: "this is an  event",
+    link:"",
+    description: "This is a description",
+  },
+  {
+    title: "Programmer Date",
+    Image: poster,
+    desc: "this is an  event",
+    link:"",
+    description: "This is a description",
+  },
+
+  {
+    title: "Bits and Bytes",
+    Image: poster,
+    desc: "this is an  event",
+    link:"",
     description: "This is a description",
   },
 ];

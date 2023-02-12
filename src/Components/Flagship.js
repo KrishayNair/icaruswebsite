@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Events.css";
-import { Flagship, Contingent, NonContigent } from "../data/events.js";
+import { Flagship } from "../data/events.js";
 
 // paragraph : montserrat, title : Raider Crusader
 import EventCard from "./EventCard";
@@ -31,47 +31,6 @@ const Events = () => {
             />
           );
         })}
-        {modalOpen && (
-          <div className="modal">
-            <EventModal
-              selectedCard={selectedCard}
-              handleModalClose={handleModalClose}
-            />
-          </div>
-        )}
-      </div>
-      <h3>Contingent Events</h3>
-      <div className="events-grid">
-        {Contingent.map((item, index) => {
-          return (
-            <EventCard
-              item={item}
-              handleCardClick={handleCardClick}
-              key={index}
-            />
-          );
-        })}
-        {modalOpen && (
-          <div className="modal">
-            <EventModal
-              selectedCard={selectedCard}
-              handleModalClose={handleModalClose}
-            />
-          </div>
-        )}
-      </div>
-      <h3>Non-Contingent Events</h3>
-      <div className="events-grid">
-        {NonContigent.map((item, index) => {
-          return (
-            <EventCard
-              item={item}
-              handleCardClick={handleCardClick}
-              key={index}
-            />
-          );
-        })}
-
         {modalOpen && (
           <div className="modal">
             <EventModal

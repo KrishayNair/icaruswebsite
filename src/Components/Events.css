@@ -7,25 +7,25 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  --num:-100px;
 }
 .events-grid {
   width: 80%;
-  display: grid;
-  /* gap:10px; */
+  display: flex;
+  flex-direction: column;
+  gap:10px;
   grid-template-columns: auto auto auto;
-  justify-items: center;
+  align-items: left;
+}
+.events-grid .event-card:nth-child(even){
+  align-self: flex-end;
 }
 @media only screen and (max-width: 780px) {
   .events-grid {
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .events-grid {
-    grid-template-columns: auto;
-  }
-}
 .events-container h2,
 .events-container h3 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -39,41 +39,70 @@
 .event-card {
   position: relative;
   width: 100%;
-  aspect-ratio: 2/3;
-  max-width: 500px;
+  /* aspect-ratio: 3/2; */
+  max-width: 450px;
   border-radius: 20px;
   overflow: hidden;
   margin: 10px;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.4);
 }
+@media only screen and (min-width: 500px){
+  .event-card:not(.event-card:first-child):nth-child(2){
+    top: var(--num);
+  }
+  .event-card:not(.event-card:first-child):nth-child(3){
+    top: calc(var(--num)*2);
+  }
+  .event-card:not(.event-card:first-child):nth-child(4){
+    top: calc(var(--num)*3);
+  }
+  .event-card:not(.event-card:first-child):nth-child(5){
+    top: calc(var(--num)*4);
+  }
+  .event-card:not(.event-card:first-child):nth-child(6){
+    top: calc(var(--num)*5);
+  }
+}
+
 .event-poster {
   /* background: yellow; */
 }
 .event-poster img {
   /* content: url("./poster.jpg"); */
-  width: 100%;
-  aspect-ratio: 2/3;
+  width: 90%;
+  /* height:30%; */
+  aspect-ratio: 2/1;
   object-fit: fill;
+  position: relative;
+  left:5%;
+  margin-top: 15px;
+  /* padding: 10px; */
+  border-radius: 5px;
 }
 .event-card .event-text {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 70%,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(0, 0, 0, 0.2) 50%,
     rgba(0, 0, 0, 0.8) 90%
-  );
-  position: absolute;
+  ); */
+  /* position: absolute;
   width: 100%;
   height: 100%;
-  top: 0px;
+  top: 0px;*/
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
   /* font-size:1rem; */
   padding: 10px;
 }
 .event-text .event-title {
   font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: "RaiderCrusader";
+  padding-left: 1.5rem;
 }
 .registerbtn {
   text-decoration: none;
@@ -82,6 +111,7 @@
   padding: 5px;
   border-radius: 10px;
   font-size: 1.2rem;
+  align-self: flex-end;
 }
 /** popup */
 .modal {
@@ -90,22 +120,32 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(90, 87, 87, 0.5);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(19.5px);
+
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.modal-card {
+  display: flex;
+}
+@media only screen and (max-width: 500px) {
+  .events-grid {
+    grid-template-columns: auto;
+  }
+  .modal-card {
+    flex-direction: column;
+  }
+}
 
 .modal-content {
-  background: linear-gradient(
-    to bottom right,
-    rgb(36, 48, 116),
-    rgb(28, 122, 131)
-  );
+  background: #00000066;
   padding: 20px;
   border-radius: 5px;
   max-width: 80%;
-  height: 70%;
+
   text-align: center;
   color: white;
 }
@@ -120,7 +160,6 @@
 
 .modal-image {
   max-width: 40%;
-  height: 450px;
 
   margin-bottom: 20px;
 }
@@ -128,11 +167,8 @@
   font-size: 16px;
   width: 100%;
 }
-.modal-description >h4{
-  
+.modal-description > h4 {
   width: 40%;
   font-size: 1.4rem;
   font-family: "RaiderCrusader";
-
 }
-

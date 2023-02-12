@@ -7,7 +7,7 @@ const EventModal = ({ selectedCard, handleModalClose }) => {
       <div className="titleCloseBtn" onClick={handleModalClose}>
         X
       </div>
-      <div className="d-flex">
+      <div className="modal-card">
         <img
           src={selectedCard.Image}
           alt={selectedCard.title}
@@ -16,7 +16,7 @@ const EventModal = ({ selectedCard, handleModalClose }) => {
         <div>
           <div className="m-3 d-flex justify-content-between">
             <h1 className="modal-title "> Tech Debate</h1>
-            <a href="/" className=" registerbtn w-25 h-50 ">
+            <a href={selectedCard.link} className=" registerbtn w-50 h-50 ">
               Register
             </a>
           </div>

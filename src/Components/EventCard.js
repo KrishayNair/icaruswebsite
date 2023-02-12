@@ -2,7 +2,7 @@ import React from "react";
 import "./Events.css";
 
 const EventCard = (props) => {
-  const { title, Image, description } = props.item;
+  const { title, Image, desc, link, description } = props.item;
   return (
     <div
       className="event-card"
@@ -13,8 +13,10 @@ const EventCard = (props) => {
       </div>
       <div className="event-text">
         <div className="event-title">{title}</div>
-        <div className="event-desc">{description}</div>
-        <a href="/" className="registerbtn">Register</a>
+        <div className="event-desc">{desc}</div>
+        {/* <a href={link} className="registerbtn">
+          Register
+        </a> */}
       </div>
     </div>
   );
