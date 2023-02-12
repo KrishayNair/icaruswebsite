@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Events.css";
 import { Flagship } from "../data/events.js";
+
+import animation from "./events-scroll-animation"
 
 // paragraph : montserrat, title : Raider Crusader
 import EventCard from "./EventCard";
@@ -17,6 +19,8 @@ const Events = () => {
   const handleModalClose = () => {
     setModalOpen(!modalOpen);
   };
+
+
   return (
     <div className="text-light events-container">
       {/* <h2>Events</h2> */}
@@ -40,6 +44,7 @@ const Events = () => {
           </div>
         )}
       </div>
+      <script src={animation}></script>
     </div>
   );
 };
