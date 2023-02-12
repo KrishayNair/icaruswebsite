@@ -1,0 +1,138 @@
+@font-face {
+  font-family: RaiderCrusader;
+  src: url(./raidercrusadersemistraight.ttf);
+}
+.events-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.events-grid {
+  width: 80%;
+  display: grid;
+  /* gap:10px; */
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+@media only screen and (max-width: 780px) {
+  .events-grid {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .events-grid {
+    grid-template-columns: auto;
+  }
+}
+.events-container h2,
+.events-container h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  font-size: 2rem;
+  font-family: "RaiderCrusader";
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.event-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/3;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10px;
+}
+.event-poster {
+  /* background: yellow; */
+}
+.event-poster img {
+  /* content: url("./poster.jpg"); */
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: fill;
+}
+.event-card .event-text {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.8) 90%
+  );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* font-size:1rem; */
+  padding: 10px;
+}
+.event-text .event-title {
+  font-size: 1.4rem;
+}
+.registerbtn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(81, 0, 128);
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+/** popup */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(90, 87, 87, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: linear-gradient(
+    to bottom right,
+    rgb(36, 48, 116),
+    rgb(28, 122, 131)
+  );
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  height: 70%;
+  text-align: center;
+  color: white;
+}
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-title {
+  font-size: 24px;
+  font-family: "RaiderCrusader";
+}
+
+.modal-image {
+  max-width: 40%;
+  height: 450px;
+
+  margin-bottom: 20px;
+}
+.modal-description {
+  font-size: 16px;
+  width: 100%;
+}
+.modal-description >h4{
+  
+  width: 40%;
+  font-size: 1.4rem;
+  font-family: "RaiderCrusader";
+
+}
+
