@@ -1,60 +1,22 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: "Montserrat" !important;
-  color: white;
+  background: url("./media/bg.jpg") no-repeat;
+  /* background-image: linear-gradient(to bottom right, rgba(25, 42, 114,1), rgba(3, 23, 53, 1)); */
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {
-  display: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-.root-container {
-  position: relative;
-}
-
-@font-face {
+/* @font-face {
   font-family: Montserrat;
-  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Raider Crusader';
-  src: url('./fonts/raider_crusader/raidercrusader.ttf') format('truetype');
-}
-
-/* Main theme related css  */
-
-.main-background-effect {
-  background-color: rgba(0 0 0 / 38%);
-  backdrop-filter: blur(9px);
-}
-
-.primary-font {
-  font-family: 'Raider Crusader';
-}
-
-.letter-spacing-heading {
-  letter-spacing: .2vw !important;
-}
-
-.letter-spacing-text {
-  letter-spacing: .04vw !important;
-}
-
-/* Button Global CSS */
-.icarus-button {
-  text-decoration: none;
-  outline: none;
-  border: 1px solid white;
-  color: white;
-  background: transparent;
-  font-size: 1.2vw;
-  font-weight: lighter;
-  letter-spacing: .2vw;
-  padding-inline: 2.8rem;
-  padding-block: .8rem;
-  text-transform: uppercase;
-}
+  src: local('Montserrat'), url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300;
+} */
