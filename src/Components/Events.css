@@ -31,7 +31,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 80%;
   font-size: 2rem;
-  font-family: "RaiderCrusader";
+  /* font-family: "RaiderCrusader"; */
   text-align: center;
   padding: 0.5rem;
   border-radius: 10px;
@@ -47,7 +47,7 @@
   backdrop-filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.4);
 }
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 1150px){
   .event-card:not(.event-card:first-child):nth-child(2){
     top: var(--num);
   }
@@ -101,16 +101,17 @@
 .event-text .event-title {
   font-size: 1.4rem;
   text-transform: uppercase;
-  font-family: "RaiderCrusader";
+  /* font-family: "RaiderCrusader"; */
   padding-left: 1.5rem;
 }
 .registerbtn {
   text-decoration: none;
   color: white;
-  background-color: rgb(81, 0, 128);
-  padding: 5px;
-  border-radius: 10px;
-  font-size: 1.2rem;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* border-radius: 10px; */
+  font-size: 1.5rem;
   align-self: flex-end;
 }
 /** popup */
@@ -131,14 +132,7 @@
 .modal-card {
   display: flex;
 }
-@media only screen and (max-width: 500px) {
-  .events-grid {
-    grid-template-columns: auto;
-  }
-  .modal-card {
-    flex-direction: column;
-  }
-}
+
 
 .modal-content {
   background: #00000066;
@@ -154,21 +148,40 @@
   justify-content: flex-end;
 }
 .modal-title {
-  font-size: 24px;
-  font-family: "RaiderCrusader";
+  font-size: 30px;
+  font-family: 'Montserrat';
 }
 
 .modal-image {
-  max-width: 40%;
-
+  max-width: 50%;
   margin-bottom: 20px;
 }
 .modal-description {
   font-size: 16px;
+  overflow-y: scroll;
   width: 100%;
 }
+/* to hide the scrollbar inside the modal */
+/* .modal-description::-webkit-scrollbar{
+  display: none;
+} */
 .modal-description > h4 {
   width: 40%;
   font-size: 1.4rem;
   font-family: "RaiderCrusader";
+}
+.modal-para{
+  min-width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .events-grid {
+    grid-template-columns: auto;
+  }
+  .modal-card {
+    flex-direction: column;
+  }
+  .modal-image {
+    max-width: 100%;
+  
+  }
 }
