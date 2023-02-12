@@ -16,14 +16,14 @@ function Team() {
         <div className="element">
           <h1 className="divHeading">Technical Secretary</h1>
 
-          <img src={image} className="image" />
-          <h1 className="name"> Muazzam Shaikh</h1>
+          <img src={image2} className="image" />
+          <h1 className="name"> Akshar Mehta</h1>
         </div>
         <div className="element">
           <h1 className="divHeading">Technical Secretary</h1>
 
-          <img src={image2} className="image" />
-          <h1 className="name"> Akshar Mehta</h1>
+          <img src={image} className="image" />
+          <h1 className="name"> Muazzam Shaikh</h1>
         </div>
       </div>
       <hr className="line" />
@@ -33,15 +33,16 @@ function Team() {
           <img src={image3} className="image" />
           <h1 className="name"> Jenil Kumbhani</h1>
         </div>
-        <div className="element2">
-          <h1 className="divHeading2">Jt.Technical Secretary</h1>
-          <img src={image5} className="image" />
-          <h1 className="name">Rituja Kotangake</h1>
-        </div>
+
         <div className="element2">
           <h1 className="divHeading2">Jt.Technical Secretary</h1>
           <img src={image4} className="image" />
           <h1 className="name">Vaishnavi Mishra</h1>
+        </div>
+        <div className="element2">
+          <h1 className="divHeading2">Jt.Technical Secretary</h1>
+          <img src={image5} className="image" />
+          <h1 className="name">Rituja Kotangake</h1>
         </div>
       </div>
       <hr className="line" />
