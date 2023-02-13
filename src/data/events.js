@@ -3,7 +3,7 @@ import poster from "../media/event-sample-poster.png";
 export const Flagship = [
   {
     title: "TECHNICAL QUIZ",
-    Image: poster,
+    Image: require("./../media/technical-quiz.jpg"),
     desc: "Technical Quiz will have multiple rounds that cover different technical subjects",
     link: "",
     description:
@@ -11,7 +11,7 @@ export const Flagship = [
   },
   {
     title: "POSTER",
-    Image: poster,
+    Image: require("./../media/poster-making.jpg"),
     desc: "Participants to showcase their technology innovations in a visually appealing and interactive format",
     link: "",
     description:
@@ -19,7 +19,7 @@ export const Flagship = [
   },
   {
     title: "PARLIAMENT",
-    Image: poster,
+    Image: require("./../media/parliament.jpg"),
     desc: "Each participant should research and prepare a speech on current issues and the stance they will take",
     link: "",
     description:
@@ -27,7 +27,7 @@ export const Flagship = [
   },
   {
     title: "PROJECT PRESENTATION",
-    Image: poster,
+    Image: require("./../media/proj-presentation.jpg"),
     desc: "Our Tech Project Presentation is a hands-on event where participants will have the opportunity to create their own tech projects from start to finish",
     link: "",
     description:
@@ -35,7 +35,7 @@ export const Flagship = [
   },
   {
     title: "BIKE EXPO",
-    Image: poster,
+    Image: require("./../media/bike-expo.jpg"),
     desc: "This is an bike expo",
     link: "",
     description: "A motorcycle expo is an event showcasing various models and designs of motorcycles from different manufacturers. Attendees have the opportunity to view the latest bikes, interact with industry experts, and attend demonstrations and competitions.",
@@ -46,14 +46,14 @@ export const Flagship = [
 export const Contingent = [
   {
     title: "Treasure Hunt",
-    Image: poster,
+    Image: require("./../media/treasure-hunt.jpg"),
     desc: "Treasure hunts are information based puzzle hunt where teams are formed.",
     link:"",
     description: "Treasure hunts are information based puzzle hunt where teams are formed. They are expected to decode d technical clues presnted to them which will lead them to a particular place.The teams must solve the given information in a particular order to reach to the final solution. All the clues together will have a secret message that will ultimately lead to the treasure.The team that finds it's first will be declared as the winner.",
   },
   {
     title: "FIFA",
-    Image: poster,
+    Image: require("./../media/fifa.jpg"),
     desc: "1v1 matches and Direct elimination 10 mins per match.",
     link:"",
     description: `1v1 matches and Direct elimination 10 mins per match
@@ -72,7 +72,7 @@ export const Contingent = [
   },
   {
     title: "Relay Coding",
-    Image: poster,
+    Image: require("./../media/relay-coding.jpg"),
     desc: "Contestants will be competing with each other in the form of teams. Every participant is given a chance for coding.",
     link:"",
     description: `Contestants will be competing with each other in the form of teams.
@@ -84,7 +84,7 @@ export const Contingent = [
   },
   {
     title: "Reel Making",
-    Image: poster,
+    Image: require("./../media/reel-making.png"),
     desc: "Reel Making Competition is an initiative to portray your creativity in any form to the wider.",
     link:"",
     description: `Reel Making Competition is an initiative to portray your creativity in any form to the wider
@@ -97,8 +97,8 @@ export const Contingent = [
 export const NonContigent = [
   {
     title: "Laser Mesh",
-    Image: poster,
-    desc: "Laser mesh is an fun event in which the participant is bound to complete in a room which contains multiple mirrors kept at various angle forming a maze which the participant has to complete without himself touching the lasers relfected.",
+    Image: require("./../media/laser-mesh.jpg"),
+    desc: "Laser mesh is an fun event in which the participant is bound to complete in a room which contains multiple mirrors kept at various angle forming a maze.",
     link:"",
     description: "Laser mesh is an fun event in which the participant is bound to complete in a room which contains multiple mirrors kept at various angle forming a maze which the participant has to complete without himself touching the lasers relfected. The scores of individual participant will be displayed on the leaderboard in the form of thier time taken to complete the challenge. The participant with most minimum time will be winning the game!",
   },
@@ -114,7 +114,7 @@ export const NonContigent = [
   },
   {
     title: "Neon Cricket",
-    Image: poster,
+    Image: require("./../media/neon-cricket.jpg"),
     desc: "A neon cricket match is a 4vs4 type of cricket game that is played in a special environment.",
     link:"",
     description: `A neon cricket match is a 4vs4 type of cricket game that is played in a special environment with every match lasting 45mins and of total 4 overs, where the playing field and equipment are illuminated by neon lights. This type of cricket match is designed to provide an immersive and visually exciting experience for the players and spectators. The neon lights create a unique atmosphere that sets this type of cricket game apart from traditional cricket matches. Neon cricket matches are often held in indoor venues or at night, and they typically feature music, laser lights, and other special effects to enhance the overall experience.`,
@@ -122,7 +122,7 @@ export const NonContigent = [
 
   {
     title: "Glow Football",
-    Image: poster,
+    Image: require("./../media/glow-football.jpg"),
     desc: "A glow football match is a type of football game that is played in a low light or dark environment.",
     link:"",
     description: `A glow football match is a type of football game that is played in a low light or dark environment, with the players, ball, and playing field illuminated by neon materials. The goal is to provide an immersive and visually exciting experience for the players and spectators. Its usually played in indoor venue. The game is played using standard football rules and equipment, with the addition of the glow-in-the-dark elements, making it a fun and enjoyable way to play and watch football.`,
@@ -137,7 +137,7 @@ export const NonContigent = [
 
   {
     title: "Giant Jenga",
-    Image: poster,
+    Image: require("./../media/jenga.webp"),
     desc: "Giant Jenga is a larger version of the classic Jenga game, where players stack wooden blocks on top of each other to form a tower.",
     link:"",
     description: `Giant Jenga is a larger version of the classic Jenga game, where players stack wooden blocks on top of each other to form a tower. In Giant Jenga, the blocks are much larger in size compared to traditional Jenga. The objective is the same, players take turns removing a block from the tower and placing it on top, without causing the tower to fall. The game is typically played outdoors and can be a fun activity for groups of people.`,

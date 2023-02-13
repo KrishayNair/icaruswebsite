@@ -18,7 +18,7 @@ const EventModal = ({ selectedCard, handleModalClose }) => {
             <h1 className="modal-title ">{selectedCard.title}</h1>
           </div>
           
-          <div className="modal-description text-lg-start m-3">
+          <div className="modal-description text-lg-start my-3">
             
             <p className="text-wrap modal-para">
               {selectedCard.description}
