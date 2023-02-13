@@ -1,0 +1,213 @@
+@font-face {
+  font-family: RaiderCrusader;
+  src: url(./raidercrusadersemistraight.ttf);
+}
+.events-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  --num:-100px;
+}
+.events-grid {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  grid-template-columns: auto auto auto;
+  align-items: left;
+  overflow: none;
+}
+.events-grid .event-card:nth-child(even){
+  align-self: flex-end;
+}
+@media only screen and (max-width: 780px) {
+  .events-grid {
+    /* grid-template-columns: auto auto; */
+  }
+}
+
+.events-container h2,
+.events-container h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  font-size: 2rem;
+  /* font-family: "RaiderCrusader"; */
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.event-card {
+  opacity: 10%;
+  position: relative;
+  width: 100%;
+  /* aspect-ratio: 3/2; */
+  max-width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  filter: blur(5px);
+  margin: 10px;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 1s ;
+}
+/* @media (prefers-reduced-motion) {
+  .event-card{
+    opacity: 100%;
+    filter: blur(0px);
+    transition: none;
+  }
+} */
+@media only screen and (min-width: 1150px){
+  .event-card:not(.event-card:first-child):nth-child(2){
+    top: var(--num);
+  }
+  .event-card:not(.event-card:first-child):nth-child(3){
+    top: calc(var(--num)*2);
+  }
+  .event-card:not(.event-card:first-child):nth-child(4){
+    top: calc(var(--num)*3);
+  }
+  .event-card:not(.event-card:first-child):nth-child(5){
+    top: calc(var(--num)*4);
+  }
+  .event-card:not(.event-card:first-child):nth-child(6){
+    top: calc(var(--num)*5);
+  }
+  .event-card:not(.event-card:first-child):nth-child(7){
+    top: calc(var(--num)*6);
+  }
+  .event-card:not(.event-card:first-child):nth-child(8){
+    top: calc(var(--num)*7);
+  }
+  .event-card:not(.event-card:first-child):nth-child(9){
+    top: calc(var(--num)*8);
+  }
+}
+
+.event-poster {
+  /* background: yellow; */
+}
+.event-poster img {
+  /* content: url("./poster.jpg"); */
+  width: 90%;
+  /* height:30%; */
+  aspect-ratio: 2/1;
+  object-fit: fill;
+  position: relative;
+  left:5%;
+  margin-top: 15px;
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+.event-card .event-text {
+  /* background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.8) 90%
+  ); */
+  /* position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;*/
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  /* font-size:1rem; */
+  padding: 10px;
+}
+.event-text .event-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  /* font-family: "RaiderCrusader"; */
+  padding-left: 1.5rem;
+}
+.registerbtn {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* border-radius: 10px; */
+  font-size: 1.5rem;
+  align-self: flex-end;
+}
+/** popup */
+.modal {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(19.5px);
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-card {
+  display: flex;
+  overflow:hidden;
+}
+.modal-card> div{
+  overflow:scroll;
+}
+
+.modal-content {
+  background: #00000066;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 70%;
+
+  text-align: center;
+  color: white;
+}
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-title {
+  font-size: 30px;
+  font-family: 'Montserrat';
+}
+
+.modal-image {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+.modal-description {
+  font-size: 16px;
+  /* overflow-y: scroll; */
+  width: 100%;
+  /* height: 80%; */
+}
+/* to hide the scrollbar inside the modal */
+/* .modal-description::-webkit-scrollbar{
+  display: none;
+} */
+.modal-description > h4 {
+  width: 40%;
+  font-size: 1.4rem;
+  font-family: "RaiderCrusader";
+}
+.modal-para{
+  min-width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .events-grid {
+    grid-template-columns: auto;
+  }
+  .modal-card {
+    flex-direction: column;
+  }
+  .modal-image {
+    max-width: 100%;
+  
+  }
+}

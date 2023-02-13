@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: url("./media/bg.jpg") no-repeat;
+  /* background-image: linear-gradient(to bottom right, rgba(25, 42, 114,1), rgba(3, 23, 53, 1)); */
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* @font-face {
+  font-family: Montserrat;
+  src: local('Montserrat'), url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300;
+} */
