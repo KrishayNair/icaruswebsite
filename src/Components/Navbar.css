@@ -1,9 +1,5 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 @media only screen and (min-width: 992px) {
-  .container-fluid {
-    max-height: 40px;
+  .navbar-container {
+    max-height: 2.5rem;
   }
 }
