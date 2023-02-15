@@ -27,9 +27,9 @@ export default function Navbar() {
                                 Events
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to='/events'>Flagship</Link></li>
-                                <li><Link className="dropdown-item" to='/events'>Contingent</Link></li>
-                                <li><Link className="dropdown-item" to='/events'>Non-Contingent</Link></li>
+                                <li><Link className="dropdown-item" to='/flagship'>Flagship</Link></li>
+                                <li><Link className="dropdown-item" to='/contigent'>Contingent</Link></li>
+                                <li><Link className="dropdown-item" to='/noncontigent'>Non-Contingent</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item text-light">
