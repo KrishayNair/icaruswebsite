@@ -7,31 +7,34 @@ import Team from "./Components/Team";
 import ESports from "./Components/ESports";
 import Contingent from "./Components/Contingent";
 import Flagship from "./Components/Flagship";
-import NonContigent from "./Components/NonContingent";
+import NonContingent from "./Components/NonContingent";
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes>
-
-      <Routes>
-        <Route exact path="/team" element={<Team />} />
-      </Routes>
-      <Routes>
-        <Route exact path="/esports" element={<ESports />} />
-      </Routes>
-      <Routes>
-        <Route exact path="/flagship" element={<Flagship />} />
-      </Routes>
-      <Routes>
-        <Route exact path="/contigent" element={<Contingent />} />
-      </Routes>
-      <Routes>
-        <Route exact path="/noncontigent" element={<NonContigent />} />
-      </Routes>
+      <div className="root-container overflow-hidden">
+        <div className="position-fixed my-3 w-100" style={{ "paddingInline": "5rem", "zIndex": "100" }}>
+        <Navbar />
+        </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/team" element={<Team />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/esports" element={<ESports />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/flagship" element={<Flagship />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/contingent" element={<Contingent />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/noncontingent" element={<NonContingent />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

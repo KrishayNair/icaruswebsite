@@ -1,9 +1,16 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 @media only screen and (min-width: 992px) {
-  .container-fluid {
-    max-height: 40px;
+  .navbar-container {
+    max-height: 2.5rem;
   }
+}
+
+@media screen and (max-width:320px) {
+  .navbar {
+    max-height: unset !important;
+  }  
+  
+  .navbar img {
+        max-height: 6rem !important;
+        left: -1rem !important;
+    }
 }

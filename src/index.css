@@ -1,22 +1,72 @@
 body {
   margin: 0;
-  background: url("./media/bg.jpg") no-repeat;
-  /* background-image: linear-gradient(to bottom right, rgba(25, 42, 114,1), rgba(3, 23, 53, 1)); */
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: "Montserrat";
+  padding: 0;
+  font-family: "Montserrat" !important;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./media/bg.jpg') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+::-webkit-scrollbar {
+  display: none;
 }
 
-/* @font-face {
+.root-container {
+  position: relative;
+}
+@media screen and (max-width: 320px) {
+  .icarus-button {
+    font-size: 2vh !important;
+    padding-inline: 1rem !important;
+    padding-block: 0.5rem !important;
+  }
+}
+
+@font-face {
   font-family: Montserrat;
-  src: local('Montserrat'), url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
-  font-weight: 300;
-} */
+  src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Raider Crusader";
+  src: url("./fonts/raider_crusader/raidercrusader.ttf") format("truetype");
+}
+
+/* Main theme related css  */
+
+.main-background-effect {
+  background-color: rgba(0 0 0 / 38%);
+  backdrop-filter: blur(9px);
+}
+
+.primary-font {
+  font-family: "Raider Crusader";
+}
+
+.letter-spacing-heading {
+  letter-spacing: 0.2vw !important;
+}
+
+.letter-spacing-text {
+  letter-spacing: 0.04vw !important;
+}
+
+/* Button Global CSS */
+.icarus-button {
+  text-decoration: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  font-size: 1.2vw;
+  font-weight: lighter;
+  letter-spacing: 0.2vw;
+  padding-inline: 2.8rem;
+  padding-block: 0.8rem;
+  text-transform: uppercase;
+}

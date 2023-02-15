@@ -25,7 +25,7 @@ const Events = () => {
   })
   },[])
   return (
-    <div className="text-light events-container">
+    <div className="text-light events-container" style={{"paddingTop":"7rem"}}>
       {/* <h2>Events</h2> */}
 
       <h3>Non-Contingent Events</h3>

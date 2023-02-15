@@ -1,0 +1,255 @@
+/* section {
+    background: linear-gradient(145deg, rgba(25,42,114,1) 28%, rgba(3,23,53,0.94) 80%);
+} */
+@media screen and (max-width: 425px) {
+  .logo-text {
+    margin-top: 2vh;
+    margin-bottom: 5vh !important;
+  }
+
+  .logo-text span {
+    top: 15vh;
+  }
+
+  .landing-page .content p {
+    font-size: 2vw !important;
+    line-height: 4vw !important;
+    margin-bottom: 0 !important;
+  }
+
+  .content .content-title {
+    margin: 5vh 0 !important;
+  }
+
+  .content .description {
+    width: 80vw;
+    font-size: 0.45rem !important;
+  }
+
+  .about-us-page .graphics {
+    visibility: hidden;
+  }
+
+  .timer-overlay span {
+    width: 150%;
+    font-size: small !important;
+  }
+
+  .timer-overlay .timer-count p {
+    font-size: 0.7rem !important;
+  }
+
+  .timer-overlay .timer-count {
+    margin-inline: 0.5rem !important;
+  }
+
+  .gy-4 h6 {
+    font-size: 1.25rem !important;
+    margin-top: 1rem !important;
+    margin-left: 0 !important;
+  }
+
+  .gy-4 p {
+    font-size: 0.75rem !important;
+    margin-left: 0 !important;
+  }
+
+  .gy-2 h6 {
+    font-size: 1rem !important;
+    padding: unset !important;
+  }
+
+  .gy-2 p {
+    font-size: 0.5rem !important;
+    width: 42.5vw;
+    padding: unset !important;
+  }
+
+  .footer .container-fluid {
+    height: unset !important;
+  }
+
+  .footer .footer-logo {
+    width: 5rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .footer h6 {
+    margin-top: 2rem !important;
+    margin-left: unset !important;
+    font-size: 0.8rem !important;
+  }
+
+  .footer .handles {
+    margin: 3.5rem 0 !important;
+  }
+
+  .footer .social {
+    margin-top: unset !important;
+  }
+
+  .footer p,
+  .footer a {
+    margin-left: unset !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+.landing-page {
+  background: url("../media/bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Logo text  */
+
+.logo-text h1 {
+  font-size: 13vw;
+}
+
+.logo-text span {
+  font-size: 3.5vw;
+  right: 1.4rem;
+  bottom: -2.5rem;
+}
+
+/* Landing Page Styles */
+
+.landing-page .content p {
+  font-weight: lighter;
+  font-size: 1.2vw;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  line-height: 2vw;
+  width: 50vw;
+}
+
+.landing-page .graphics img {
+  position: absolute;
+  bottom: 0;
+  right: -2rem;
+  width: 45vw;
+  transform: scaleX(-1);
+}
+
+.landing-page .graphics .bottom-box {
+  position: absolute;
+  bottom: 0;
+}
+
+/* About us page styles */
+
+.about-us-page .graphics img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 58vw;
+}
+
+.about-us-page .graphics .monkey-outline-circle {
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  bottom: calc(var(--size) / -6);
+  right: calc(var(--size) / -10);
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid rgba(255 255 255 / 18%);
+  opacity: calc((18 - (4 / 5) * (var(--size) - 40)) / 100);
+}
+
+/* event description page */
+
+.timer-overlay span {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.3vw;
+}
+
+.timer-overlay .timer-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 1.5rem;
+}
+
+.timer-overlay .timer-count h1 {
+  font-weight: bold;
+  letter-spacing: 0.15vw;
+}
+
+.timer-overlay .timer-count p {
+  align-self: flex-end;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.1vw;
+}
+
+.gy-4 h6 {
+  text-align: left;
+  font-family: Raider Crusader;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.gy-4 p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Montserrat;
+  font-size: 1rem;
+  margin-left: 3rem;
+}
+
+.gy-2 h6 {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  letter-spacing: 0.5vw;
+  padding: 0 3rem;
+}
+
+.gy-2 p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0 3rem;
+}
+
+/* footer page */
+
+.footer .container-fluid {
+  background-color: transparent;
+  background-image: url("../media/footerbg.jpg");
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer .footer-logo {
+  width: 14rem;
+  margin-top: 3rem;
+}
+
+.footer h6 {
+  margin-top: 4rem;
+  margin-left: 1.8rem;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Montserrat;
+  letter-spacing: 0.2rem;
+}
+
+.footer .social {
+  margin-top: 3.75rem;
+}
+
+.footer p,
+.footer a {
+  margin-left: 1.8rem;
+  font-size: 1rem;
+  opacity: 0.75;
+}

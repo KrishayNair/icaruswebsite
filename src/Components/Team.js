@@ -8,7 +8,7 @@ import image5 from "../media/rituja2.jpeg";
 
 function Team() {
   return (
-    <div className="container text-light">
+    <div className="container-fluid text-light" style={{"marginTop":"7rem"}}>
       <div className="headingdiv">
         <h1 className="heading">OUR TEAM</h1>
       </div>
