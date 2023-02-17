@@ -1,0 +1,106 @@
+@media screen and (max-width: 425px) {
+    /* landing page view */
+
+    .landing-page .graphics {
+        display: none;
+    }
+
+    .landing-page .content { padding-inline-start: 1rem !important; }
+
+    .landing-page .content .logo-text h1 {
+        font-size: 24vw;
+    }
+
+    .landing-page .content .logo-text span {
+        font-size: 10vw;
+        bottom: -2rem;
+    }
+
+    .landing-page .content p {
+        font-size: 4.2vw;
+        line-height: normal;
+        width: 90vw;
+        text-align: center;
+    }      
+
+    /* monkey view */
+    .about-us-page>.row {
+        height: 100vh;
+    }
+
+    .about-us-page .content { padding-left: 1.5rem !important; align-items: center; }
+
+    .about-us-page .content h1 {
+        font-size: 8vw !important;
+    }
+
+    .about-us-page .content .description p {
+        width: 90vw;
+        font-size: 4vw !important;
+    }
+
+    .about-us-page .graphics {
+        display: none;
+    }
+
+    /* timer overlay view */
+    .timer-overlay {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .timer-overlay span {
+        font-size: 6.5vw;
+        margin-bottom: 2rem;
+    }
+
+
+    /* event description view */
+    .event-desc-page {
+        height: auto !important;
+    }
+
+    .event-desc-page .edh h6 { /* .edh --> event desc header */ 
+        font-size: 8vw;
+    }
+
+    .event-desc-page .edh p {
+        width: 75vw; 
+        font-size: 4vw;
+        margin-top: 2rem;
+    }
+
+    /* footer view */
+    .footer .footer-logo {
+        width: 52vw;
+    }
+
+    .footer h6 {
+        font-size: 5.4vw;
+        text-align: center;
+    }
+    
+    .footer div.foot-item svg {
+      font-size: 4.4vw;
+    }
+    
+    .footer div.foot-item, .footer p {
+      font-size: 3.8vw;
+      text-align: center;
+    }
+    
+    .footer .social a {
+      font-size: 6vw;
+      text-align: center;
+    }
+
+    .social-layout {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-layout h6 {
+        margin-right: 0 !important;
+    }
+}

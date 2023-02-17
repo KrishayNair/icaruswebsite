@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Events.css";
-import {  NonContigent } from "../data/events.js";
+import { NonContigent } from "../data/events.js";
 // paragraph : montserrat, title : Raider Crusader
 import EventCard from "./EventCard";
 import EventModal from "./EventModal";
-import {observer} from "./events-scroll-animation"
+import { observer } from "./events-scroll-animation"
 
 const Events = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -18,14 +18,14 @@ const Events = () => {
   const handleModalClose = () => {
     setModalOpen(!modalOpen);
   };
-  useEffect(()=>{
+  useEffect(() => {
     var cards = document.querySelectorAll(".event-card")
-    cards.forEach((card)=>{
-    observer.observe(card)
-  })
-  },[])
+    cards.forEach((card) => {
+      observer.observe(card)
+    })
+  }, [])
   return (
-    <div className="text-light events-container" style={{"paddingTop":"7rem"}}>
+    <div className="text-light events-container" style={{ "paddingTop": "7rem" }}>
       {/* <h2>Events</h2> */}
 
       <h3>Non-Contingent Events</h3>

@@ -70,3 +70,10 @@ body {
   padding-block: 0.8rem;
   text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 425px) {
+  .icarus-button {
+    font-size: 4.5vw;
+  }
+}
