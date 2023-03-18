@@ -6,7 +6,7 @@ import './Navbar.css'
 export default function Navbar() {
 
     return (
-        <nav className="navbar navbar-expand-lg my-1 main-background-effect " style={{ "borderRadius": "10px" }} >
+        <nav className="navbar navbar-dark navbar-expand-lg my-1 main-background-effect " style={{ "borderRadius": "10px" }} >
             <div className="container-fluid navbar-container">
                 <Link className="navbar-brand" to="/">
                     <img className='px-5' src={icarus01min} alt="icarus01min" style={{ "position": "absolute", "top": "-1.5rem", "left": "-0.5rem", "maxHeight": "6.5rem" }} />
