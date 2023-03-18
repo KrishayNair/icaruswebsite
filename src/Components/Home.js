@@ -256,14 +256,14 @@ export default function Home() {
                     <div className="container px-0">
                         <div className="gy-4" style={{ "marginBottom": "4rem" }}>
                             <h6>EVENTS AT ICARUS</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                            {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p> */}
                         </div>
                         <div className="row gy-2" style={{ backgroundColor: 'transparent' }}>
                             {/* -------------------------block with non-contigent events------------------------------------------------ */}
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">NON-CONTINGENT</h6>
-                                    <p >A non-contingent is a team of students from different college attending the event held. They would be representing their college at all the events. Members can take part from the college as well as from other college.</p>
+                                    <p >A non-contingent is a team of students from different college attending the event held. They would be representing their college at all the events. Members can take part from the college as well as from other colleges.</p>
                                 </div>
                             </div>
                             {/*-----------------------block with contigent events----------------------------------------------- --> */}
@@ -278,7 +278,7 @@ export default function Home() {
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">E-SPORTS</h6>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                                    <p>Esports events are competitive gaming tournaments where professional gamers and esports teams compete against each other in various video games. These events are typically held both online and in-person, and they can attract thousands of spectators from around the world.</p>
                                 </div>
                             </div>
                             {/*--------------------------block with flagship events----------------------------------------------- --> */}
