@@ -7,19 +7,19 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  --num:-100px;
+  --num: -100px;
 }
 .events-grid {
   width: 80%;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   /* grid-template-columns: auto auto auto; */
   align-items: left;
   justify-content: center;
   overflow: none;
 }
-.events-grid .event-card:nth-child(even){
+.events-grid .event-card:nth-child(even) {
   align-self: flex-end;
 }
 @media only screen and (max-width: 780px) {
@@ -50,7 +50,7 @@
   margin: 10px;
   backdrop-filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.4);
-  transition: all 1.5s ease-out ;
+  transition: all 1.5s ease-out;
 }
 /* @media (prefers-reduced-motion) {
   .event-card{
@@ -94,9 +94,9 @@
   width: 90%;
   /* height:30%; */
   aspect-ratio: 2/1;
-  object-fit: fill;
+  object-fit: fit;
   position: relative;
-  left:5%;
+  left: 5%;
   margin-top: 15px;
   /* padding: 10px; */
   border-radius: 5px;
@@ -137,7 +137,6 @@
 }
 /** popup */
 .modal {
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -175,13 +174,13 @@
 }
 .modal-title {
   font-size: 30px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .modal-image {
-  max-width: 50%;
+  max-width: 35%;
   margin-bottom: 20px;
-  padding:15px;
+  padding: 15px;
 }
 .modal-description {
   font-size: 16px;
@@ -190,7 +189,7 @@
   /* height: 80%; */
 }
 /* to hide the scrollbar inside the modal */
-.modal-para::-webkit-scrollbar{
+.modal-para::-webkit-scrollbar {
   display: none;
 }
 .modal-description > h4 {
@@ -198,10 +197,10 @@
   font-size: 1.4rem;
   font-family: "RaiderCrusader";
 }
-.modal-para{
+.modal-para {
   min-width: 100%;
   overflow-y: scroll;
-  height:13rem;
+  height: 13rem;
   text-align: justify;
 }
 @media only screen and (max-width: 500px) {
@@ -210,9 +209,8 @@
   }
   .modal-card {
     flex-direction: column;
-    
   }
-  .modal-title{
+  .modal-title {
     font-size: 1.2rem;
   }
   /* .modal-content{
@@ -220,6 +218,5 @@
   } */
   .modal-image {
     max-width: 100%;
-  
   }
 }
