@@ -175,22 +175,20 @@ export default function Home() {
                                 style={{ fontSize: "1.2vw", textAlign: "justify" }}
                             >
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                                    eleifend erat tellus, a vestibulum massa sodales sed. Mauris
-                                    tellus erat, lobortis sit amet viverra non, dapibus id velit.
-                                    Maecenas sed rhoncus purus. Sed nec hendrerit urna. Donec
-                                    venenatis, justo semper consequat sagittis, sem dui lobortis
-                                    lacus, vel pulvinar eros est ut metus. Donec pretium ipsum
-                                    nisl, sit amet ultricies nulla laoreet at. Vestibulum in erat
-                                    pretium, finibus nulla ultricies, pellentesque enim.
+                                    ICARUS is a national level technical symposium which draws
+                                    participation from all over India. It is a popular event among
+                                    students of degree as well as diploma colleges. Competitions and
+                                    challenges are central to Innovision's operations. The fest casts
+                                    a remarkable impression by putting forth a varied array of
+                                    innovative and interesting events that fascinate the visitors to a
+                                    great extent.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                                    eleifend erat tellus, a vestibulum massa sodales sed. Mauris
-                                    tellus erat, lobortis sit amet viverra non, dapibus id velit.
-                                    Maecenas sed rhoncus purus. Sed nec hendrerit urna. Donec
-                                    venenatis, justo semper consequat sagittis, sem dui lobortis
-                                    lacus, vel pulvinar eros est ut metus.
+                                    ICARUS aims to provide an excellent platform for the budding
+                                    engineers of today and a launch pad for new talent. It provides
+                                    an opportunity for companies to scout for young talent. It is a
+                                    huge avenue for inspired techies to showcase their talent to the
+                                    technical world!
                                 </p>
                                 <p
                                     style={{
@@ -198,9 +196,11 @@ export default function Home() {
                                         paddingLeft: "1rem",
                                     }}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                                    eleifend erat tellus, a vestibulum massa sodales sed. Mauris
-                                    tellus erat, lobortis sit amet viverra non, dapibus id velit.
+                                    The festival unfolds the treasure of talent in the students if the
+                                    student gets an opportunity to show his/her talent and skills
+                                    before an audience, it helps in the overall personality
+                                    development of student Today's amateur and novice artist can
+                                    be an eminent professional tomorrow.
                                 </p>
                             </div>
                         </div>
@@ -253,38 +253,39 @@ export default function Home() {
                     className="event-desc-page position-relative my-5 vh-100 d-flex flex-column justify-content-center align-items-start"
                     style={{ position: "relative", zIndex: 1 }}
                 >
-                    <div className="container px-0 overflow-hidden">
-                        <div className="gy-4 edh" style={{ "marginBottom": "4rem" }}>
+                    <div className="container px-0">
+                        <div className="gy-4" style={{ "marginBottom": "4rem" }}>
                             <h6>EVENTS AT ICARUS</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                            {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p> */}
                         </div>
                         <div className="row gy-2" style={{ backgroundColor: 'transparent' }}>
                             {/* -------------------------block with non-contigent events------------------------------------------------ */}
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">NON-CONTINGENT</h6>
-                                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                                    <p >A non-contingent is a team of students from different college attending the event held. They would be representing their college at all the events. Members can take part from the college as well as from other colleges.</p>
                                 </div>
                             </div>
                             {/*-----------------------block with contigent events----------------------------------------------- --> */}
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">CONTINGENT</h6>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                                    <p>A contingent is a team of students (at least 7) from same college, attending the event held. They would be representing their college department at all the events. Contingent events are inter-department events. The contingent members would be competing in various events.
+                                    </p>
                                 </div>
                             </div>
                             {/*--------------------------block with esports events----------------------------------------------- --> */}
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">E-SPORTS</h6>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                                    <p>Esports events are competitive gaming tournaments where professional gamers and esports teams compete against each other in various video games. These events are typically held both online and in-person, and they can attract thousands of spectators from around the world.</p>
                                 </div>
                             </div>
                             {/*--------------------------block with flagship events----------------------------------------------- --> */}
                             <div className="col-sm-12 col-lg-6">
                                 <div className="pt-2">
                                     <h6 className="mb-4">FLAGSHIP</h6>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates quasi earum placeat similique itaque officiis culpa repudiandae? Et dolores nulla facilis architecto laborum adipisci eos, dolorem aut minus ratione.</p>
+                                    <p>Flagship events are the institutional level events conducted by the college for all the college members. These events give the students a chance to come up with solutions and manage situations in the face of actual constraints and timeliness. The value gained from the organization of these events is invaluable, and all the events are managed by the student committees detailed in the preceding section.</p>
                                 </div>
                             </div>
                         </div>
@@ -303,10 +304,10 @@ export default function Home() {
                                 </div>
                                 <div className="col-sm-12 col-lg-8">
                                     <div className="row">
-                                        <div className="col-sm-12 col-lg-6 gx-2" style={{ "marginBottom":"3rem" }}>
+                                        <div className="col-sm-12 col-lg-6 gx-2" style={{ "marginBottom": "3rem" }}>
                                             <h6>CONTACT US AT</h6>
-                                            <div className="foot-item mb-2"><RiPhoneFill/> +91 93239 63445</div>
-                                            <div className="foot-item"><RiMailFill/> support@icarusthefest.in</div>
+                                            <div className="foot-item mb-2"><RiPhoneFill /> +91 93239 63445</div>
+                                            <div className="foot-item"><RiMailFill /> support@icarusthefest.in</div>
                                         </div>
                                         <div className="col-sm-12 col-lg-6 gx-2" >
                                             <h6>ADDRESS</h6>
@@ -318,8 +319,8 @@ export default function Home() {
                                             <h6 className="mb-0 me-5">FOLLOW US ON</h6>
                                             <div className="social">
                                                 <a href="/"><RiInstagramFill /></a>
-                                                <a href="/"><RiFacebookCircleFill/></a>
-                                                <a href="/"><RiLinkedinBoxFill/></a>
+                                                <a href="/"><RiFacebookCircleFill /></a>
+                                                <a href="/"><RiLinkedinBoxFill /></a>
                                             </div>
                                         </div>
                                     </div>
