@@ -47,7 +47,7 @@ export const Games = [
     title: "Valorant",
     Image: require("./../media/VALO.jpeg"),
     desc: "Competitive gaming tournament for the first person shooter video game, Valorant.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSen0ZhmsDmckkIqZqyDWR7kZAYkYKL8rZpC7bpFTD35sPgBGA/viewform",
     description:
       "5v5 Multiplayer game.Competitive gaming tournament for the first person shooter video game, Valorant. Players form teams and compete against each other in intense and strategic matches",
   },
@@ -55,7 +55,7 @@ export const Games = [
     title: "BGMI",
     Image: require("./../media/BGMI.png"),
     desc: "4v4 Battle Royale. Competitive gaming tournament for the Battle Grounds Mobile India (BGMI) mobile game.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdtHQLiXORK7EvEAPmvEn5zAmRuwXxaJ-b0zR05xNydP0VIMw/viewform",
     description:
       "4v4 Battle Royale. Competitive gaming tournament for the Battle Grounds Mobile India (BGMI) mobile game. Teams of players compete in intense matches, showcasing their skills and strategic gameplay, with the goal of being crowned the best BGMI team in the event.",
   },
@@ -63,7 +63,7 @@ export const Games = [
     title: "CALL OF DUTY MOBILE",
     Image: require("./../media/COD.png"),
     desc: "5v5 Team Death Match.Competitive gaming tournament where players form teams to battle against each other in fast paced, multiplayer matches on the Call of Duty Mobile game platform",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScAv6iCgoTuo0FAtO3nemP9nRWnlbABrNdomCne5pcv4uTAsw/viewform",
     description:
       "5v5 Team Death Match.Competitive gaming tournament where players form teams to battle against each other in fast paced, multiplayer matches on the Call of Duty Mobile game platform. The goal is to eliminate as many opponents as possible and reach the highest score within a set time limit.",
   },
@@ -71,7 +71,7 @@ export const Games = [
     title: "FIFA",
     Image: require("./../media/FIFA.png"),
     desc: "Players compete against each other in virtual matches on the FIFA video game series.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeckBUZmEhQaCJTW7B-m_AyjwtK3x5vRk_n5kYO7-hyMR3TKQ/viewform",
     description:
       "Players compete against each other in virtual matches on the FIFA video game series. The objective is to outscore your opponent and be crowned the champion through quick thinking, strategic play, and expert ball control skills.",
   },
