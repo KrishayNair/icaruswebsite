@@ -8,13 +8,17 @@ import ESports from "./Components/ESports";
 import Contingent from "./Components/Contingent";
 import Flagship from "./Components/Flagship";
 import NonContingent from "./Components/NonContingent";
+import Robotics from "./Components/Robotics";
 
 function App() {
   return (
     <Router>
       <div className="root-container overflow-hidden">
-        <div className="position-fixed my-3 w-100" style={{ "paddingInline": "5rem", "zIndex": "100" }}>
-        <Navbar />
+        <div
+          className="position-fixed my-3 w-100"
+          style={{ paddingInline: "5rem", zIndex: "100" }}
+        >
+          <Navbar />
         </div>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -33,6 +37,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/noncontingent" element={<NonContingent />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/robotics" element={<Robotics />} />
         </Routes>
       </div>
     </Router>
