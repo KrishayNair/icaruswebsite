@@ -1,14 +1,14 @@
 import React from "react";
 import "./Team.css";
-import image from "../media/muazzam.jpeg";
-import image2 from "../media/akshar.JPG";
-import image3 from "../media/jenil2.jpg";
-import image4 from "../media/vaishnavi.jpg";
-import image5 from "../media/rituja2.jpeg";
+import image from "../media/muazzam3.jpeg";
+import image2 from "../media/akshar3.jpg";
+import image3 from "../media/jenil3.jpg";
+import image4 from "../media/vaishnavi3.jpg";
+import image5 from "../media/rituja3.jpeg";
 
 function Team() {
   return (
-    <div className="container-fluid text-light" style={{"marginTop":"7rem"}}>
+    <div className="container-fluid text-light" style={{ marginTop: "7rem" }}>
       <div className="headingdiv">
         <h1 className="heading">OUR TEAM</h1>
       </div>
