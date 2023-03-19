@@ -20,10 +20,10 @@ export const Flagship = [
   {
     title: "Paper Presentation",
     Image: require("./../media/parliament.jpg"),
-    desc: "Each participant should research and prepare a speech on current issues and the stance they will take",
+    desc: "Technical paper presentation is a type of formal presentation that presents technical information in a clear and concise manner to a targeted audience",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScaPPB0tn6vToqb4kdeNDEvzKHvw6FvarRLkawjK87wYr7Gnw/viewform",
     description:
-      "Each participant should research and prepare a speech on current issues and the stance they will take in the debate.They can prepare on various topics related to national and international issues.Participants can introduce bills on various issues and debate on them before passing them into law.The debate should be moderated and timed to ensure a fair and efficient discussion.Points should be awarded based on the quality of arguments, coherence, and relevance to the portfolio.The participant with the most points at the end of the debate wins",
+      "Technical paper presentation is a type of formal presentation that presents technical information in a clear and concise manner to a targeted audience. It is typically used to communicate research findings or ideas within the engineering, science, and technology fields. The purpose of a technical paper presentation is to share technical information with a wider audience, including researchers, scientists, engineers, and business leaders. The presentation often includes a written paper, visual aids, and a spoken presentation. It is important to use technical language and terminology to effectively communicate complex ideas and concepts to the audience.",
   },
   {
     title: "Project Presentation",
@@ -91,7 +91,7 @@ export const Contingent = [
     title: "BGMI TDM",
     Image: require("./../media/BGMI.png"),
     desc: "4v4 Battle Royale. Competitive gaming tournament for the Battle Grounds Mobile India (BGMI) mobile game.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdtHQLiXORK7EvEAPmvEn5zAmRuwXxaJ-b0zR05xNydP0VIMw/viewform",
     description:
       "4v4 Battle Royale. Competitive gaming tournament for the Battle Grounds Mobile India (BGMI) mobile game. Teams of players compete in intense matches, showcasing their skills and strategic gameplay, with the goal of being crowned the best BGMI team in the event.",
   },
@@ -130,7 +130,7 @@ export const NonContigent = [
   },
   {
     title: "Tech Debate",
-    Image: poster,
+    Image: require("../media/debate.jpg"),
     desc: "A tech debate is a discussion about technology, where people present their opinions and arguments about a specific topic related to technology. ",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfBa2NjW9x2iWo4Isbi1iQMXLKdhtCB96BOBhv4St58LWcpag/viewform",
     description: `A tech debate is a discussion about technology, where people present their opinions and arguments about a specific topic related to technology. Participants in a tech debate will present their arguments and support their viewpoints, while also considering and to the arguments presented by others. The goal of a tech debate is to understand different perspectives and promote critical thinking and constructive discussion about technology. Debate will be of 4 rounds i.e. as follows 1.IDEATION - In this round the teams will be given 2mins each to put their points, on which they will debate in the further rounds.
@@ -155,9 +155,9 @@ export const NonContigent = [
   },
   {
     title: "Open Cube",
-    Image: poster,
+    Image: require("../media/opencube.jpg"),
     desc: "Open Cube is an events where participants compete to solve 3x3 or multiple types of Rubik's Cubes as quickly as possible.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScym-nxa3eAxVe1eIT2A0LhGrFUWCIve0AlTIiTwiOje0PsFw/viewform",
     description: `Open Cube is an events where participants compete to solve 3x3 or multiple types of Rubik's Cubes as quickly as possible. The rules vary, but typically each competitor has a set amount of time to inspect the mixed up cube and then solve it under timed conditions. Solving techniques are typically based on algorithms and pattern recognition. The fastest time is recorded and the competitor with the quickest time is declared the winner.`,
   },
 
@@ -165,24 +165,32 @@ export const NonContigent = [
     title: "Giant Jenga",
     Image: require("./../media/jenga.webp"),
     desc: "Giant Jenga is a larger version of the classic Jenga game, where players stack wooden blocks on top of each other to form a tower.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc_al4MGeRoDx4NNHeqgSBDRAcp3GdJtDA3A31yn0iCeAVfDg/viewform",
     description: `Giant Jenga is a larger version of the classic Jenga game, where players stack wooden blocks on top of each other to form a tower. In Giant Jenga, the blocks are much larger in size compared to traditional Jenga. The objective is the same, players take turns removing a block from the tower and placing it on top, without causing the tower to fall. The game is typically played outdoors and can be a fun activity for groups of people.`,
   },
   {
     title: "Programmer Date",
-    Image: poster,
+    Image: require("../media/date.jpg"),
     desc: "Random pairing of any boy with a girl, to solve simple coding questions.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdQWmznB7kIxx6tWk2SNJsckQtIzcXPwT5CQi4CqiDpasoaOQ/viewform",
     description:
       "Random pairing of any boy with a girl, to solve simple coding questions.",
   },
 
   {
     title: "Bits and Bytes",
-    Image: poster,
+    Image: require("../media/bitandbyte.jpg"),
     desc: "Each player has to guide their Program through the Grid (avoiding Walls, Bugs and the dreaded CPU) to reach the planet Ram.",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdjQpCWv0GratGJMUYl6YZuGAJsauINdGy7xa2N9qWmF2CtyQ/viewform?usp=send_form",
     description: `Each player has to guide their Program through the Grid (avoiding Walls, Bugs and the dreaded CPU) to reach the planet Ram. The player does this by issuing their Program with Instructions on how to move by showing the other players an instruction card (the player is writing a line of computer code for their Program). Each player chooses one of the Programs to play and is given four INSTRUCTION cards (one of each) Shuffle the Grid cards and set the cards up as shown on the right. The Programs should all face in aclockwise direction (the arrow above the Program’s head determines the direction it is facing) By default there are 60 Grid cards included in the game but only 56 are required. Place the 4 spare Grid cards to one side (they are not needed) If a player finds all of their paths blocked by Walls or other obstacles then at the start of their turn they can nominate an obstacle to be removed. They then have their turn as normal After the player has had their turn, they keep the Instruction card they showed and the next player has their turn (players should always have thefour Instruction cards to choose from). Players continue taking it in turns until everybody has reached planet Ram.`,
+  },
+  {
+    title: "CAD wars",
+    Image: require("../media/cad.jpg"),
+    desc: "The event would consist of 2 rounds.",
+    link: "https://docs.google.com/forms/d/1mSc0Wbcrl5Wm7LvBsgfI3C0pDYbk5nzsDXA_9B--YDQ/viewform?edit_requested=true",
+    description:
+      "The event would consist of 2 rounds.The 1st round would be an elimination round.All the participants would be given a specific design/model which they have to design on any of the designing software of their choice.The time limit for the first round would be 1 hr. Once the time limit is over the designs/models of every participant would be checked and depending upon the accuracy and procedure of designing 5 best participants would be qualified for the next round.The 2nd round is the final round with a surprise twist that would be announced at that very instant.Depending upon the accuracy and procedure of designing the winner would be declared.",
   },
 ];
 

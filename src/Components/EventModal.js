@@ -21,14 +21,16 @@ const EventModal = ({ selectedCard, handleModalClose }) => {
           <div className="modal-description text-lg-start my-3">
             <p className="text-wrap modal-para">{selectedCard.description}</p>
           </div>
-          <a
-            href={selectedCard.link}
-            target="_blank"
-            rel="noreferrer"
-            className=" registerbtn  "
-          >
-            Register
-          </a>
+          {selectedCard.link.length > 0 && (
+            <a
+              href={selectedCard.link}
+              target="_blank"
+              rel="noreferrer"
+              className=" registerbtn  "
+            >
+              Register
+            </a>
+          )}
         </div>
       </div>
     </div>
