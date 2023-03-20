@@ -5,7 +5,8 @@ import landing from "../media/landing-01.png";
 import NFTMonkey from "../media/nftmonkey.png";
 import icarus01 from "../media/icarus01.png";
 
-import { RiFacebookCircleFill, RiInstagramFill, RiLinkedinBoxFill, RiMailFill, RiPhoneFill } from 'react-icons/ri';
+import { RiInstagramFill, RiTwitterFill, RiMailFill, RiPhoneFill } from 'react-icons/ri';
+import { Icon } from '@iconify/react';
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -318,9 +319,9 @@ export default function Home() {
                                         <div className="px-0 social-layout d-flex justify-content-start align-items-center">
                                             <h6 className="mb-0 me-5">FOLLOW US ON</h6>
                                             <div className="social">
-                                                <a href="/"><RiInstagramFill /></a>
-                                                <a href="/"><RiFacebookCircleFill /></a>
-                                                <a href="/"><RiLinkedinBoxFill /></a>
+                                                <a href="https://instagram.com/theicarusfest?igshid=YmMyMTA2M2Y=" target={"_blank"} rel="noreferrer"><RiInstagramFill /></a>
+                                                <a href="https://twitter.com/theicarusfest?s=11" target={"_blank"} rel="noreferrer"><RiTwitterFill /></a>
+                                                <a href="https://linktr.ee/theicarusfest" target={"_blank"} rel="noreferrer"><Icon icon="simple-icons:linktree" /></a>
                                             </div>
                                         </div>
                                     </div>
